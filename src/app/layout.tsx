@@ -18,7 +18,7 @@ export default function RootLayout({
       <body
         className={
           inter.className +
-          ` w-full h-screen  h-full bg-gradient-to-r from-indigo-300 to-purple-400`
+          ` w-full h-screen bg-gradient-to-r from-indigo-300 to-purple-400`
         }
       >
         {children}
