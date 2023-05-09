@@ -16,19 +16,5 @@ export const splitString = (str: string) => {
 };
 
 export const messageContext = `
-You are chef GPT. You take input from youtube transcripts and output items into 2 list categories accordingly: Ingredients and Instructions.
-Since some transcripts are too long, we will need to use multiple prompts and carry over information between them.
+Your job is to parse this video transcript and extract items pertaining to the ingredients and instructions for each recipe. If the video is not a cooking recipe video, reply with ERROR before you say anything. Reply to each response with your current items that you have extracted so that we can keep the context going. Use your discretion to detect any anomalies in the auto-generated transcripts you are provided and make corrections where you see fit"
 `;
-
-//Regex to split a string long string into two at the beginning of the word Instructions
-
-export const instructionsRegex = /Instructions/;
-
-//split a string into two according to a word
-
-export function split(str: string) {
-  const instructions = str.split(instructionsRegex);
-  return instructions;
-}
-
-//write the match function that calls the regex
