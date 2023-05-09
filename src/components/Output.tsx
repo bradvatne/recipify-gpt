@@ -16,7 +16,7 @@ const Output = ({
   const { instructions, ingredients } = appState;
 
   return (
-    <div className="rounded-lg w-full bg-slate-50 shadow-xl mt-12 p-4">
+    <div className="rounded-lg w-full bg-slate-50 shadow-xl mt-12 p-6">
       <div className="flex flex-1 justify-between ">
         <h2 className="text-2xl text-bold mt-4">
           Your recipe is ready! Selamat Makan! 🎉🍝

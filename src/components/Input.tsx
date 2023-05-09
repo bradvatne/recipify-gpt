@@ -42,7 +42,7 @@ export const Input = ({
   };
 
   return (
-    <div className="flex w-full items-center justify-center mt-12 px-5">
+    <div className="flex w-full items-center justify-center mt-12">
       <input
         type="text"
         className="p-6 rounded-xl flex flex-1"

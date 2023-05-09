@@ -18,7 +18,7 @@ export default function RootLayout({
       <body
         className={
           inter.className +
-          ` w-full min-h-screen bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-green-200 to-green-500`
+          ` w-full h-screen  h-full bg-gradient-to-r from-indigo-300 to-purple-400`
         }
       >
         {children}
